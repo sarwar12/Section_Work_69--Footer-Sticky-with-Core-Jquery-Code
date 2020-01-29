@@ -1,0 +1,169 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Header Section Start */
+.mainmenu ul {
+  list-style: none;
+  margin: 0;
+}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  display: block;
+  padding: 17px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #999;
+}
+.mainmenu {
+  text-align: right;
+  margin-top: 0;
+}
+.header-area {
+	padding: 10px 0;
+	background-color: lightcyan;
+}
+.header-area img {
+	height: 40px;
+	margin-top: 13px;
+}
+/* Header Section Stop */
+/* Slider Section Start */
+.slider-bg{
+	background-image: url(../img/bg.jpg);
+}
+.slider-bg {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+  z-index: 1;
+}
+.section-area {
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.8;
+}
+.single-slide-item {
+  height: 500px;
+  display: table;
+}
+.slide-item-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 27px;
+}
+.slider-bg:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-color: #ddd;
+  z-index: -1;
+}
+.slide-item-tablecell h1 {
+  color: lightgreen;
+  margin-bottom: 30px;
+}
+.slide-item-tablecell p {
+  text-align: justify;
+}
+.boxed-btn {
+  background: lightcoral;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+}
+/* Slider Section Stop */
+/* Many Content Section Start */
+.section-padding {
+  padding: 30px 0;
+}
+.signle-column-item {
+}
+.column-item-tablecell h3 {
+  color: teal;
+  font-weight: 700;
+  font-style: italic;
+}
+.column-item-tablecell p {
+  padding: 5px 0;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  text-align: justify;
+}
+.border-box-btn {
+	background: lightgreen;
+	color: maroon;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px 0 50px 0;
+	font-weight: 700;
+}
+/* Many Content Section Stop */
+/* Footer Section Start */
+.footer-area{ 
+	background-color: tan;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.copyright-text {
+	margin: 0;
+}
+.copyright-text span {
+	color: teal;
+}
+/* Footer Section Stop */
+/* Sticky Footer Code Start */
+.footer-up-address ul {
+  list-style: none;
+}
+.footer-up-address ul li {
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer-up-address {
+  background: #555;
+  padding: 20px 0;
+  border-top: 5px solid #999;
+}
+.footer-side-all {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.main-section-all {
+  position: relative;
+  z-index: 9;
+  background: #fff;
+/* Sticky Footer Code Stop*/
